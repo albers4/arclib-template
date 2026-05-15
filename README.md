@@ -1,10 +1,5 @@
 # arclib-template
 
-## Environment setup (non-persistent)
-```
-export ENZYME_PATH=<path-to-ClangEnzyme-16.so>
-```
-
 ## Initial setup (first time only)
 ```
 make python-venv        # Create virtual environment
