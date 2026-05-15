@@ -1,0 +1,9 @@
+[package]
+name = "arclib-template-example"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+arclib-template-spec = { path = "../arclib-template-spec" }
+arclib-template-impl = { path = "../arclib-template-impl" }

@@ -1,0 +1,17 @@
+[package]
+name = "arclib-template-py"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lib]
+name = "arclib_template"
+crate-type = ["cdylib"]
+
+[dependencies]
+arclib-template-spec = { path = "../arclib-template-spec" }
+arclib-template-impl = { path = "../arclib-template-impl" }
+pyo3 = { version = "0.22", features = ["extension-module"] }
+
+[dev-dependencies]
