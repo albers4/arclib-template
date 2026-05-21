@@ -12,6 +12,6 @@ crate-type = ["cdylib"]
 [dependencies]
 arclib-template-spec = { path = "../arclib-template-spec" }
 arclib-template-impl = { path = "../arclib-template-impl" }
-pyo3 = { version = "0.22", features = ["extension-module"] }
+pyo3 = { version = "0.28", features = ["extension-module"] }
 
 [dev-dependencies]
